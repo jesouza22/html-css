@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>links</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+      text-decoration: none;
+      color: red;
+      font-weight: bold;
+    }
+    a:visited{
+      color:rgb(80, 239, 186);
+    }
+    a:hover{
+      color:black;
+      text-decoration: underline;
+    }
+    a:active{
+      color: yellow;
+    }
+    a::before{
+      content: '[😝]';
+      color:black;
+      font-weight: normal;
+    }
+    a::after{
+      content: '[link]';
+      color:black;
+      text-decoration: underline;
+      font-weight: normal;
+    }
+    
+
+  </style>
+</head>
+<body>
+  <h1>Personalizado os links</h1>
+  <ul>
+    <li><a href="#">repositóriogithub</a></li>
+    <li><a href="#">youtube</a></li>
+    <li><a href="#">site cursoemvideo</a></li>
+  </ul>
+</body>
+</html>
